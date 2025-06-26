@@ -1,0 +1,51 @@
+.totalSec{
+    margin: 32px 5% 84px;
+    .secTitle{margin-bottom: 4%;}
+}
+.secCounter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+   
+    
+    .oneCard{
+ max-width:368px;
+    img{
+        max-width:368px;
+     padding: 0 10px;
+    }
+    p{
+        padding: 0 10px;
+        color: #6941C6;
+    font-size: 14px;
+    font-weight: 600;
+    }
+    h1{
+        padding: 0 10px;
+         margin: 12px 0;
+         font-size: 24px;
+        font-weight: 600;
+        color: #1A1A1A;
+        
+    }
+         .lastpar{
+           
+        font-size: 16px;
+        font-weight: 400;
+        color: #667085;}
+        .incard{
+           
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          
+            img{
+            
+               height: 25px;
+            }
+        }
+    
+    }
+   
+}

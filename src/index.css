@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ font-family: "Inter", sans-serif;
+}
+button{
+    background-color: #7F56D9;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+}
+input{
+    border:1px #7F56D9 solid;
+    padding: 12px 16px ;
+    color: #667085;
+    border-radius: 8px;
+    font-weight: 400;
+    
+}
+.signClass{
+   max-width: 430px;
+   margin: 95px auto 57px;
+   
+    p{margin-bottom: 24px;
+    color: #C0C5D0;
+font-size: 14px;
+font-weight: 400;}
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        max-width:430px ;
+    
+    }
+    .secpar{
+        text-align: center;
+        margin-top: 14px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #000000;
+        a{
+            color: #090D1F;
+        }
+    }
+    
+}
+@media only screen and (max-width: 900px) {
+  nav {
+    
+     .prenav{
+        
+       align-items:flex-end;
+        gap: 10px !important;
+    }  
+  }
+  .secHero{
+    text-align: center;
+    h1{margin: 0 100px;
+    }
+  }
+  .totalSec{
+   padding: 20px;
+   margin: 0;
+     .secTitle{text-align: center;} 
+     .secCounter{ justify-content: center;}
+  }
+
+    
+
+}
